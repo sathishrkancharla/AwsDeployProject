@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: target/awsdemo-0.0.1-SNAPSHOT.jar
-    destination: /tmp
+    destination: /tmp/
 hooks:
   ApplicationStop:
     - location: scripts/stop_server.sh
