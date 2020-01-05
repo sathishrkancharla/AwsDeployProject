@@ -15,5 +15,5 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: 'target/awsdemo-0.0.1-SNAPSHOT.jar'
+  
   
