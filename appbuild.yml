@@ -14,5 +14,6 @@ phases:
       - mvn clean package
 artifacts:
   files:
-    - target/awsdemo-0.0.1-SNAPSHOT.jar
-  discard-paths: yes
+    - '**/*'
+base-directory: 'target/awsdemo-0.0.1-SNAPSHOT.jar'
+  
