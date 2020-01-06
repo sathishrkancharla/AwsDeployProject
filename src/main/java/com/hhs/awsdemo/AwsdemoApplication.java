@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AwsdemoApplication {
 
 	public static void main(String[] args) {
-		System.out.println("start stop");
+		System.out.println("start stop 2");
 		SpringApplication.run(AwsdemoApplication.class, args);
 	}
 
